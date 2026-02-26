@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.aqi/
+.venv/
+.env
+# Data (keep raw data out of git)
+data/raw/*
+data/processed/*
+
+# MLflow
+mlruns/
+
+# Mac
+.DS_Store
+/models/
